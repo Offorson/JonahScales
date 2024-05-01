@@ -9,10 +9,12 @@
 }
 
 h1 {
-  font-family: "Sofia Sans Condensed", sans-serif;
+  font-family: "Sofia Sans Condensed", cursive;
   font-size: 55px;
   /* font-weight: 2; */
-  padding: 20px;
+  @media (max-width: 1125px) {
+    font-size: 40px;
+  }
 }
 
 .line-break {
@@ -101,23 +103,27 @@ button {
 
 .header-div {
   width: 100%;
-  min-height: 100vh;
+  max-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
   color: white;
+  overflow: hidden;
+  /* text-align: center; */
 }
 
 .header-text {
   width: 100%;
   min-height: 100vh;
-  display: flex; /* Flexbox layout */
+  display: flex;
+
   align-items: center; /* Stretch child elements to fill height */
   justify-content: center;
   flex-direction: column;
   color: white;
   /* background-color: rgb(0, 0, 0); */
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
 }
 
 .header-div img {
