@@ -91,7 +91,7 @@ button {
 
 .consultation {
   margin-top: 30px;
-  width: 60%;
+  width: 80%;
   color: white;
   border-radius: 20px;
   font-size: 25px;
@@ -262,7 +262,7 @@ button {
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
-  box-shadow: 0 0 20px #eee;
+  /* box-shadow: 0 0 20px #eee; */
   border-radius: 20px;
   display: block;
   /* border: none; */
